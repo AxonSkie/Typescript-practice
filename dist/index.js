@@ -7,5 +7,7 @@ var Size;
 })(Size || (Size = {}));
 ;
 let mySize = Size.Medium;
+let lists = [1, 'axon'];
+console.log(lists);
 console.log(mySize);
 //# sourceMappingURL=index.js.map

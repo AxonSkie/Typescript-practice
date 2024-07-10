@@ -1,11 +1,5 @@
-enum Size {Small = 1 , Medium = 2, Large = 3};
-
-let mySize: Size = Size.Medium;
-
-
-let lists: [number , string] = [1 , 'axon'];
-
-console.log(lists);
-
-
-console.log(mySize);
+function calculateTax (income : number): number{
+      if (income < 50_000)
+        return income * 2;
+    return income *3;
+}
